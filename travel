@@ -1,0 +1,464 @@
+
+<!DOCTYPE html>
+<html>
+	
+<head>
+		<meta charset="utf-8">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no" />
+		       
+		<link rel="shortcut icon" href="favicon.ico"/> 
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+		<link href="css/jquery-ui.structure.min.css" rel="stylesheet" type="text/css"/>
+		<link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+		<link rel="stylesheet" href="css/font-awesome.min.css">        
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>     
+		<title>Sky Routs</title>
+	</head>
+<body data-color="theme-1">
+ 
+	 
+  <div class="loading">
+	<div class="loading-center">
+		<div class="loading-center-absolute">
+			<div class="object object_four"></div>
+			<div class="object object_three"></div>
+			<div class="object object_two"></div>
+			<div class="object object_one"></div>
+		</div>
+	</div>
+  </div>
+  
+  <header class="color-1 hovered menu-3">
+   <div class="container">
+   	  <div class="row">
+   	  	 <div class="col-md-12">
+  	  	    <div class="nav"> 
+   	  	    <a href="index.html" class="logo">
+   	  	    	<img src="img/logo.png" alt="lets travel">
+   	  	    </a>
+   	  	    <div class="nav-menu-icon">
+		      <a href="#"><i></i></a>
+		    </div>
+   	  	 	<nav class="menu">
+			  	<ul>
+					<li class="type-1 active">
+						<a href="index.html">home</a>
+					</li>
+                    <li class="type-1">
+                        <a href="javascript();">Other Services<span class="fa fa-angle-down"></span></a>
+			<ul class="dropmenu">
+                            <li><a href="other_services.html">Visa</a></li>
+                            <li><a href="other_services.html">Passport</a></li>
+                            <li><a href="other_services.html">Railway Ticketing</a></li>
+                            <li><a href="other_services.html">Foreign Exchange</a></li>
+                            <li><a href="other_services.html">Travel Insurance</a></li>
+			</ul>
+                    </li>
+                    <li class="type-1">
+                        <a href="javascript();">Indian Holidays<span class="fa fa-angle-down"></span></a>
+			<ul class="dropmenu">
+                            <li><a href="indian-trips.html">Indian Holidays</a></li>
+                            <li><a href="hotel-booking.html">Hotel Booking</a></li>
+                            <li><a href="flight-booking.html">Flight Booking</a></li>
+			</ul>
+                    </li>
+                    <li class="type-1">
+                        <a href="javascript();">International Holidays<span class="fa fa-angle-down"></span></a>
+			<ul class="dropmenu">
+                            <li><a href="international-trips.html">International Holidays</a></li>
+                            <li><a href="hotel-booking.html">Hotel Booking</a></li>
+                            <li><a href="flight-booking.html">Flight Booking</a></li>
+			</ul>
+                    </li>
+                    <li class="type-1">
+						<a href="contact_us.html">contact</a>
+					</li>					
+			  	</ul>
+		   </nav>
+		   </div>
+   	  	 </div>
+   	  </div>
+   </div>
+  </header>
+  
+	<div class="top-baner swiper-animate arrows">
+			<div class="swiper-container main-slider" data-autoplay="5000" data-loop="1" data-speed="900" data-center="0" data-slides-per-view="1">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide active" data-val="0"> 
+					  <div class="clip">
+						 <div class="bg bg-bg-chrome act" style="background-image:url(img/home-banner/banner-1.jpg)">
+						 </div>
+					  </div>
+						<div class="vertical-align">
+						  <div class="container">
+							<div class="row">
+							  <div class="col-md-12">
+								<div class="main-title vert-title">
+								  <h1 class="color-white delay-1">Only one who wanders<br>finds new paths.</h1>
+									<a href="indian-trips.html" class="c-button bg-aqua hv-transparent delay-2"><img src="img/loc_icon.png" alt=""><span>view our tours</span></a>
+								 </div>
+							   </div>
+							  </div>
+							</div>
+						 </div>
+					</div>
+					<div class="swiper-slide" data-val="1"> 
+					  <div class="clip">
+						 <div class="bg bg-bg-chrome act" style="background-image:url(img/home-banner/banner-2.jpg)">
+						 </div>
+					  </div>
+						<div class="vertical-align">
+						  <div class="container">
+							<div class="row">
+							  <div class="col-md-12">
+								<div class="main-title vert-title">
+								  <h1 class="color-white delay-1">one life, one world, explore it.</h1>
+									<a href="indian-trips.html" class="c-button bg-aqua delay-2"><img src="img/loc_icon.png" alt=""><span>view our tours</span></a>
+								 </div>
+							   </div>
+							  </div>
+							</div>
+						 </div>
+					</div>
+                    <div class="swiper-slide active" data-val="2"> 
+					  <div class="clip">
+						 <div class="bg bg-bg-chrome act" style="background-image:url(img/home-banner/banner-3.jpg)">
+						 </div>
+					  </div>
+						<div class="vertical-align">
+						  <div class="container">
+							<div class="row">
+							  <div class="col-md-12">
+								<div class="main-title vert-title">
+								  <h1 class="color-white delay-1">collect moments, not things.</h1>
+									<a href="indian-trips.html" class="c-button bg-aqua hv-transparent delay-2"><img src="img/loc_icon.png" alt=""><span>view our tours</span></a>
+								 </div>
+							   </div>
+							  </div>
+							</div>
+						 </div>
+					</div>
+				</div>    
+				  <div class="pagination pagination-hidden poin-style-1"></div>
+			</div>
+				  <div class="arrow-wrapp m-200">
+					<div class="cont-1170">
+						<div class="swiper-arrow-left sw-arrow"><span class="fa fa-angle-left"></span></div>
+						<div class="swiper-arrow-right sw-arrow"><span class="fa fa-angle-right"></span></div>
+					</div>
+				  </div>
+                 
+		</div> 
+       
+    <div class="main-wraper padd-90">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-12">
+    				<div class="second-title">
+    					<h2>Explore India</h2>
+    					  <p class="color-grey">The best indian place to visit.</p>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="row">
+                        <!-- Trip Block -->
+    			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+    				<div class="radius-mask tour-block hover-aqua">
+    				  <div class="clip">
+						 <div class="bg bg-bg-chrome act" style="background-image:url(img/indian-trips/madhya-pradesh/1.jpg)">
+						 </div>
+					  </div>
+					  <div class="tour-layer delay-1"></div>
+					  <div class="tour-caption">
+					  	 <div class="vertical-align">
+					  	 	<h3 class="hover-it">Madhya Pradesh</h3>
+					  	 </div>
+					  	 <div class="vertical-bottom">
+					  	 	<a href="madhya-pradesh.html" class="c-button b-50 bg-aqua hv-transparent"><img src="img/flag_icon.png" alt=""><span>view more</span></a>
+					  	 </div>
+					  </div>
+    				</div>
+    			</div>
+			<!-- Trip Block -->
+                        <!-- Trip Block -->
+    			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+    				<div class="radius-mask tour-block hover-aqua">
+    				  <div class="clip">
+						 <div class="bg bg-bg-chrome act" style="background-image:url(img/indian-trips/gujarat/1.jpg)">
+						 </div>
+					  </div>
+					  <div class="tour-layer delay-1"></div>
+					  <div class="tour-caption">
+					  	 <div class="vertical-align">
+					  	 	<h3 class="hover-it">gujarat</h3>
+					  	 </div>
+					  	 <div class="vertical-bottom">
+					  	 	<a href="gujarat.html" class="c-button b-50 bg-aqua hv-transparent"><img src="img/flag_icon.png" alt=""><span>view more</span></a>
+					  	 </div>
+					  </div>
+    				</div>
+    			</div>
+			<!-- Trip Block -->
+                        <!-- Trip Block -->
+    			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+    				<div class="radius-mask tour-block hover-aqua">
+    				  <div class="clip">
+						 <div class="bg bg-bg-chrome act" style="background-image:url(img/indian-trips/kerala/1.jpg)">
+						 </div>
+					  </div>
+					  <div class="tour-layer delay-1"></div>
+					  <div class="tour-caption">
+					  	 <div class="vertical-align">
+					  	 	<h3 class="hover-it">kerala</h3>
+					  	 </div>
+					  	 <div class="vertical-bottom">
+					  	 	<a href="kerala.html" class="c-button b-50 bg-aqua hv-transparent"><img src="img/flag_icon.png" alt=""><span>view more</span></a>
+					  	 </div>
+					  </div>
+    				</div>
+    			</div>
+			<!-- Trip Block -->
+                        <!-- Trip Block -->
+    			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+    				<div class="radius-mask tour-block hover-aqua">
+    				  <div class="clip">
+						 <div class="bg bg-bg-chrome act" style="background-image:url(img/indian-trips/maharasthra/1.jpg)">
+						 </div>
+					  </div>
+					  <div class="tour-layer delay-1"></div>
+					  <div class="tour-caption">
+					  	 <div class="vertical-align">
+					  	 	<h3 class="hover-it">maharasthra</h3>
+					  	 </div>
+					  	 <div class="vertical-bottom">
+					  	 	<a href="maharasthra.html" class="c-button b-50 bg-aqua hv-transparent"><img src="img/flag_icon.png" alt=""><span>view more</span></a>
+					  	 </div>
+					  </div>
+    				</div>
+    			</div>
+			<!-- Trip Block -->
+                        <!-- Trip Block -->
+    			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+    				<div class="radius-mask tour-block hover-aqua">
+    				  <div class="clip">
+						 <div class="bg bg-bg-chrome act" style="background-image:url(img/indian-trips/nort-east/1.jpg)">
+						 </div>
+					  </div>
+					  <div class="tour-layer delay-1"></div>
+					  <div class="tour-caption">
+					  	 <div class="vertical-align">
+					  	 	<h3 class="hover-it">north east</h3>
+					  	 </div>
+					  	 <div class="vertical-bottom">
+					  	 	<a href="north-east.html" class="c-button b-50 bg-aqua hv-transparent"><img src="img/flag_icon.png" alt=""><span>view more</span></a>
+					  	 </div>
+					  </div>
+    				</div>
+    			</div>
+			<!-- Trip Block -->
+                        <!-- Trip Block -->
+    			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+    				<div class="radius-mask tour-block hover-aqua">
+    				  <div class="clip">
+						 <div class="bg bg-bg-chrome act" style="background-image:url(img/indian-trips/rajasthan/1.jpg)">
+						 </div>
+					  </div>
+					  <div class="tour-layer delay-1"></div>
+					  <div class="tour-caption">
+					  	 <div class="vertical-align">
+					  	 	<h3 class="hover-it">rajasthan</h3>
+					  	 </div>
+					  	 <div class="vertical-bottom">
+					  	 	<a href="rajasthan.html" class="c-button b-50 bg-aqua hv-transparent"><img src="img/flag_icon.png" alt=""><span>view more</span></a>
+					  	 </div>
+					  </div>
+    				</div>
+    			</div>
+			<!-- Trip Block -->
+    		</div>
+    	</div>
+    </div> 
+       
+    <div class="main-wraper">
+    	  <div class="clip">
+			 <div class="bg bg-bg-chrome" style="background-image:url(img/home_1/tour_slider_bg.jpg)">
+			 </div>
+		  </div>
+		  <div class="swiper-container" data-autoplay="0" data-loop="1" data-speed="1000" data-slides-per-view="1" id="tour-slide">
+			 <div class="swiper-wrapper">
+				<div class="swiper-slide">
+			      <div class="container">
+			      	 <div class="row">
+			      	 	<div class="col-md-12">
+                                            <div class="slider-tour padd-94-94">
+                                                <h2>Let the sea<br>set you free</h2> 
+                                            </div>	
+			      	 	</div>
+			      	 </div>
+			      </div> 
+				</div>
+				<div class="swiper-slide">
+			      <div class="container">
+			      	 <div class="row">
+			      	 	<div class="col-md-12">
+                                            <div class="slider-tour padd-94-94">
+                                                <h2>Life is an adventure.<br>Take risks.</h2> 
+                                            </div>	
+			      	 	</div>
+			      	 </div>
+			      </div> 
+				</div>
+				<div class="swiper-slide">
+			      <div class="container">
+			      	 <div class="row">
+			      	 	<div class="col-md-12">
+                                            <div class="slider-tour padd-94-94">
+                                                <h2>Take only memories,<br>leave only footprints.</h2> 
+                                            </div>	
+			      	 	</div>
+			      	 </div>
+			      </div> 
+				</div>
+				<div class="swiper-slide">
+			      <div class="container">
+			      	 <div class="row">
+			      	 	<div class="col-md-12">
+                                            <div class="slider-tour padd-94-94">
+                                              <h2>Maldives Vacation Packages</h2> 
+                                            </div>	
+			      	 	</div>
+			      	 </div>
+			      </div> 
+				</div>
+			 </div>
+			 <div class="pagination poin-style-1"></div>
+		  </div>
+    </div>
+       
+    <div class="main-wraper">
+    	<div class="container-fluid">
+    		<div class="row">
+    			<div class="col-md-12">
+    				<div class="second-title">
+    					<h2>International Holidays</h2>
+    					  <p class="color-grey">Best international place to visit</p>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="row col-no-padd">
+    			<div class="col-md-4 col-sm-6 col-xs-12">
+    				<div class="photo-block hover-aqua">
+    				  <div class="tour-layer delay-1"></div>
+    					<img src="img/international-trips/dubai/1.jpg" alt="">
+    					   <div class="vertical-align">
+   					   	     <div class="photo-title">
+    					   	    <a class="hover-it" href="dubai.html"><h3>dubai</h3></a>
+    					   	     <h5 class="delay-1">Best Place</h5>
+    					   	 </div>
+    					   </div>
+    				</div>
+    			</div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+    				<div class="photo-block hover-aqua">
+    				  <div class="tour-layer delay-1"></div>
+    					<img src="img/international-trips/singpore/1.jpg" alt="">
+    					   <div class="vertical-align">
+   					   	     <div class="photo-title">
+    					   	    <a class="hover-it" href="singapore.html"><h3>singapore</h3></a>
+    					   	     <h5 class="delay-1">Best Place</h5>
+    					   	 </div>
+    					   </div>
+    				</div>
+    			</div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+    				<div class="photo-block hover-aqua">
+    				  <div class="tour-layer delay-1"></div>
+    					<img src="img/international-trips/malaysia/1.jpg" alt="">
+    					   <div class="vertical-align">
+   					   	     <div class="photo-title">
+    					   	    <a class="hover-it" href="malaysia.html"><h3>malaysia</h3></a>
+    					   	     <h5 class="delay-1">Best Place</h5>
+    					   	 </div>
+    					   </div>
+    				</div>
+    			</div>
+    			
+  
+    		</div>
+		</div>
+    </div>
+           
+       
+    <div class="main-wraper padd-90">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-12">
+    				<div class="second-title">
+    					<h2>About Sky Routs</h2>
+    					  <p style="color: #333;">SKYROUTS TRAVEL PRIVATE LIMITED is a South Delhi based company working towards excellence in the Consulting space, and believe in pursuing business through innovation and technology. Our team comes with several years of industry experience, and comprise of a highly motivated set of specialists & industry experts. Our goal is to be a leader in the industry by providing enhanced products, services, relationship and profitability.<br><br>
+                          Our vision is to provide quality products & services that exceeds the expectations of our esteemed customers. We firmly believe that our customers are the reason for our existence, and greatly respect the trust that they place in us. We grow through creativity and innovation. We integrate honesty, integrity and business ethics into all aspects of our business functioning. Our mission is to build long term relationships with our customers. We strive towards delighting our customers at every opportunity through exceptional customer service. Our future looks bright as we continue developing a strong base of key customers and increasing the assets and investments of the company.</p>
+    				</div>
+    			</div>
+    		</div>
+		</div>
+	</div>     
+       
+    <footer class="bg-dark type-2">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+    				<div class="footer-block">
+    					<img src="img/logo-white.png" alt="" class="logo-footer">
+    					<div class="f_text color-grey-7">SKYROUTS TRAVEL PRIVATE LIMITED is a South Delhi based company working towards excellence in the Consulting space, and believe in pursuing business through innovation and technology. Our team comes with several years of industry experience, and comprise of a highly motivated set of specialists & industry experts. Our goal is to be a leader in the industry by providing enhanced products, services, relationship and profitability.</div>
+    					<!-- <div class="footer-share">
+    						<a href="#"><span class="fa fa-facebook"></span></a>
+    						<a href="#"><span class="fa fa-twitter"></span></a>
+    						<a href="#"><span class="fa fa-google-plus"></span></a>
+    						<a href="#"><span class="fa fa-pinterest"></span></a>
+    					</div> -->
+    				</div>
+    			</div>
+    			
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                   <div class="footer-block">
+                     <h6>Contact Info</h6>
+                       <div class="contact-info">
+                        <!-- <div class="contact-line color-grey-3"><i class="fa fa-map-marker"></i><span>Skyrouts, H17 A LGF,<br><span style="padding-left: 18px;">Kalkaji Market,</span><br><span style="padding-left: 18px;">New Delhi - 110019</span></div> -->
+						<div class="contact-line color-grey-3"><i class="fa fa-phone"></i><a href="tel:+91-9910093886">+91-9910093886</a></div>
+						<div class="contact-line color-grey-3"><i class="fa fa-envelope-o"></i><a href="mailto:ajay.tanwar@skyrouts.in">ajay.tanwar@skyrouts.in</a></div>										
+						
+					</div>
+				   </div> 
+				</div>
+    		</div>
+    	</div>
+    	<div class="footer-link bg-black">
+    	  <div class="container">
+    	  	<div class="row">
+    	  		<div class="col-md-12">
+    	  		    <div class="copyright">
+						<span>&copy; 2016 All rights reserved. Sky Routs</span>
+					</div>
+    	  			<ul>
+						<li><a class="link-aqua" href="indian-trips.html">Indian Trips</a></li>
+						<li><a class="link-aqua" href="international-trips.html">International Trips</a></li>
+					</ul>
+    	  		</div>
+    	  	</div>
+    	  </div>
+    	</div>
+    </footer>  
+    
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/idangerous.swiper.min.js"></script>
+<script src="js/jquery.viewportchecker.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>
+<script src="js/all.js"></script>
+</body>
+
+</html>				   
